@@ -17,9 +17,7 @@ The objective of this tutorial is to help the students understand the basics of 
 ---- 
 HOW TO RUN THIS PROJECT
 
-Import the project in Pycharm IDE and
-
-and run the "main.py" file.
+Import the project in Pycharm IDE and run the "main.py" file.
 
 The project will run !
 
