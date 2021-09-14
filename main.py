@@ -12,9 +12,9 @@ RELIANCE , SBIN, ASIANPAINT, TATAMOTORS, CIPLA
 We will be storing the current price of these stocks in
 the "STOCK_result.csv" file.
 
-the script will run for 30 minutes.
-and the updated value of stocks is recorded every 2 seconds.
+the script will store the updated value of stocks is recorded every 2 seconds.
 
+NOTE: The script will results when the stock market is open.
 """
 
 
@@ -30,6 +30,7 @@ headers = "RELIANCE , SBIN, ASIANPAINT, TATAMOTORS,CIPLA \n"
 f.write(headers)
 
 
+# creating a fetch_NSE_stock_price function to fetch the stock price of the stock
 def fetch_NSE_stock_price(stock_code):
     stock_url = 'https://www1.nseindia.com/live_market/dynaContent/live_watch/get_quote/GetQuote.jsp?symbol=' + str(
         stock_code)
@@ -47,14 +48,12 @@ def fetch_NSE_stock_price(stock_code):
 
 
 
-
+# Storing the stock codes
 stock_code1 = "RELIANCE"
 stock_code2 = "SBIN"
 stock_code3 = "ASIANPAINT"
 stock_code4 = "TATAMOTORS"
 stock_code5 = "CIPLA"
-
-
 
 
 t_iteration = 1000 #number of iterations
@@ -63,6 +62,8 @@ d_sleep = 2 #the price of stock is recorded every 2 seconds
 
 
 iteration = 0
+
+# loop to fetch the stock prices and store them in STOCK_result.csv file
 while iteration < t_iteration:
     current_stock_price1 = fetch_NSE_stock_price(stock_code1)
     current_stock_price2 = fetch_NSE_stock_price(stock_code2)
