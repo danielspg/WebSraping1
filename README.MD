@@ -27,6 +27,13 @@ Import the project in Pycharm IDE and run the "main.py" file.
 The project will run !
 
 ----
+
+Slides used for this lab can be found in the link below
+
+<a href="https://github.com/danielspg/WebSraping1/blob/master/DOR_slides.pdf"> Link to slides</a>
+
+
+----
 Suggested Tutorial for Prerequisite  
 
 1. Python: https://www.youtube.com/watch?v=_uQrJ0TkZlc
