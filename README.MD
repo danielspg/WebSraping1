@@ -21,3 +21,9 @@ Import the project in Pycharm IDE and run the "main.py" file.
 
 The project will run !
 
+----
+Suggested Tutorial for Prerequisite  
+
+1. Python: https://www.youtube.com/watch?v=_uQrJ0TkZlc
+2. Python file Handling: https://www.w3schools.com/python/python_file_handling.asp  
+3. Beautiful Soup: https://www.crummy.com/software/BeautifulSoup/bs4/doc/ 
