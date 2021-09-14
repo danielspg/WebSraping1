@@ -23,6 +23,7 @@ The objective of this tutorial is to help the students understand the basics of 
 HOW TO RUN THIS PROJECT
 
 Import the project in Pycharm IDE and run the "main.py" file.
+Use the "Add interpreter" of pycharm and set the path to venv folder provided in this repository.
 
 The project will run !
 
